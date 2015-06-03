@@ -17,8 +17,8 @@
  * along with the Arduino SdFat Library.  If not, see
  * <http://www.gnu.org/licenses/>.
  */
- 
-#include <Application.h>
+
+#include "application.h"
 #include "SdFat.h"
 #include "SdFatUtil.h"
 
@@ -1258,4 +1258,3 @@ void SdFile::writeln_P(PGM_P str) {
   write_P(str);
   println();
 }
-

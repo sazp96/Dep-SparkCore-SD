@@ -23,8 +23,8 @@
  * \file
  * Useful utility functions.
  */
-#include <Application.h>
-#include <Sd2Card.h>
+#include "application.h"
+#include "Sd2Card.h"
 //#include <string.h>
 /*
 #ifndef PSTR
@@ -98,7 +98,7 @@ static int FreeRam(void) {
  * %Print a string in flash memory to the serial port.
  *
  * \param[in] str Pointer to string stored in flash memory.
-*/ 
+*/
 /*
 #ifndef SerialPrint_P
 #define SerialPrint_P(str) { \
@@ -113,7 +113,7 @@ static int FreeRam(void) {
  *
  * \param[in] str Pointer to string stored in flash memory.
 */
-/* 
+/*
 #ifndef SerialPrintln_P
 #define SerialPrintln_P(str) { \
   SerialPrint_P(str); \
